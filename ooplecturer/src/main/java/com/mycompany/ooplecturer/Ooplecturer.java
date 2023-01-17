@@ -1,5 +1,6 @@
 
 package com.mycompany.ooplecturer;
+import java.util.HashSet;
 import java.util.Scanner;
 
 
@@ -30,5 +31,8 @@ public class Ooplecturer {
         Dog.gender = "Doggy";
         Dog.sleep(9);
         
+        shit.setage(40);
+        
+        System.out.println(shit.name + " is" + shit.setage() + "years old");
     }
 }
